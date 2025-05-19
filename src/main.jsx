@@ -1,9 +1,11 @@
-import React from 'react'
 
-const main = () => {
-  return (
-    <div>main</div>
-  )
-}
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 
-export default main
+createRoot(document.getElementById('root')).render(
+<App/>
+)
+
+
+
